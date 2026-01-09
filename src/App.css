@@ -1,0 +1,339 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../src/assets/fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../src/assets/fonts/Lato-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../src/assets/fonts/Inter_18pt-Regular.ttf") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  --font-family: "Lato", sans-serif;
+  --primary-color: white;
+  --secondary-color: rgba(52, 59, 65, 1);
+  --accent-color: rgba(220, 38, 104, 1);
+  --accent-color-secondary: rgba(251, 207, 228, 1);
+  --accent-text-color: rgba(132, 23, 59, 1);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 64px */
+h1,
+.heading-style-h1 {
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 2%;
+}
+
+/* 48px */
+h2,
+.heading-style-h2 {
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 2%;
+}
+
+/* 24px */
+h3,
+.heading-style-h3 {
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 2%;
+}
+
+/* 22px */
+h4,
+.heading-style-h4 {
+  color: var(--primary-color);
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 2%;
+}
+h5,
+.heading-style-h5 {
+  color: #333532;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Libre Baskerville, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 120%;
+}
+h6,
+.heading-style-h6 {
+  color: #333532;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Libre Baskerville, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.text-size-large {
+  color: #474e48;
+  margin-bottom: 0;
+  font-family: Inter, sans-serif;
+  font-size: 2rem;
+  line-height: 150%;
+}
+/* 18px */
+.text-size-medium {
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-size: 1.25rem;
+  line-height: 140%;
+  letter-spacing: 2%;
+}
+/* 16px */
+p,
+.text-size-regular {
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  line-height: 140%;
+  letter-spacing: 2%;
+}
+/* 12px */
+.text-size-small {
+  color: #343b41;
+  font-family: var(--font-family);
+  font-size: 0.75rem;
+  line-height: 140%;
+  letter-spacing: 2%;
+}
+.text-size-tiny {
+  color: #474e48;
+  margin-bottom: 0;
+  font-family: Inter, sans-serif;
+  font-size: 0.675rem;
+  line-height: 150%;
+}
+
+.text-color-primary {
+  color: var(--primary-color);
+}
+.text-color-secondary {
+  color: var(--accent-text-color);
+}
+.text-color-neutral {
+  color: var(--secondary-color);
+}
+
+.text-style-allcaps {
+  text-transform: uppercase;
+}
+.text-style-italic {
+  font-style: italic;
+}
+.text-style-strikethrough {
+  text-decoration: line-through;
+}
+
+/* Outer Max Widths */
+/* 1344px */
+.container-large {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 84rem;
+}
+
+/* 1072px */
+.container-medium {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 67rem;
+}
+
+/* 1056px */
+.container-small {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 66rem;
+}
+
+/* Max width for sections/component not full width like the containers above */
+.max-width-large {
+}
+.max-width-medium {
+  max-width: 51.188rem;
+  margin: 0 auto;
+}
+.max-width-small {
+}
+
+/* Horizontal Padding */
+.padding-global {
+  padding: 0 3rem;
+}
+
+/* Vertical Padding applied to same div add global padding*/
+/* 215px */
+.padding-section-large {
+  padding: 13.438rem 0;
+}
+
+/* 170px */
+.padding-section-medium {
+  padding: 10.6rem 0;
+}
+/* 96px */
+.padding-section-small {
+  padding: 6rem 0;
+}
+
+/* Padding Vertical or Horizontal */
+/* 64px */
+.padding-large {
+  padding: 4rem;
+}
+
+/* 48px */
+.padding-medium {
+  padding: 3rem;
+}
+
+/* 32px */
+.padding-small {
+  padding: 2rem;
+}
+
+/* Set which direction you want the padding */
+.padding-top {
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.padding-right {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.padding-bottom {
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+.padding-left {
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+/* Margin Vertical or Horizontal */
+.margin-large {
+  margin: 4rem;
+}
+.margin-medium {
+  margin: 3rem;
+}
+.margin-small {
+  margin: 2rem;
+}
+
+/* Set which direction you want the margin */
+.margin-top {
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.margin-right {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.margin-bottom {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+.margin-left {
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 6.25rem;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0%;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.is-accent-color {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}
+.is-secondary-accent-color {
+  background-color: var(--accent-color-secondary);
+  color: var(--accent-text-color);
+}
+.is-clear {
+  background-color: transparent;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+.is-dark-text {
+  color: #505a62;
+}
+a {
+  font-family: var(--font-family);
+  color: rgba(80, 90, 98, 1);
+  font-size: 1rem;
+  line-height: 140%;
+  letter-spacing: 2%;
+  text-decoration: none;
+}
+
+/* Utility class | only uses the "-" | heading-style-h1 */
+/* Custom class | uses both "- _"  | hero-home_image */
+/* Combo class | is- | is-green-text */
+.home-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100dvh;
+  background-image: url("./assets/images/hero-bg.png");
+  background-size: cover;
+  z-index: -1;
+}
+
+.home {
+  text-align: center;
+  margin-top: 18.375rem;
+}

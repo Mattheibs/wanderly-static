@@ -71,7 +71,6 @@ h3,
 h4,
 .heading-style-h4 {
   color: var(--primary-color);
-  text-align: center;
   font-family: var(--font-family);
   font-size: 1.375rem;
   font-weight: 400;
@@ -190,6 +189,7 @@ p,
   margin: 0 auto;
 }
 .max-width-small {
+  max-width: 40.5rem;
 }
 
 /* Horizontal Padding */
@@ -336,4 +336,5 @@ a {
 .home {
   text-align: center;
   margin-top: 18.375rem;
+  padding-bottom: 19.25rem;
 }

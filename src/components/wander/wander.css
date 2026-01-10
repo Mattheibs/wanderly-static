@@ -1,0 +1,14 @@
+.wander {
+  background-image: url("../../assets/images/wander-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wander-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+}

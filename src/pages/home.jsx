@@ -1,3 +1,6 @@
+import Tours from "../components/tours/tours";
+import Wander from "../components/wander/wander";
+
 function Home() {
   return (
     <div>
@@ -9,6 +12,8 @@ function Home() {
           landscapes.
         </h4>
       </div>
+      <Tours />
+      <Wander />
     </div>
   );
 }

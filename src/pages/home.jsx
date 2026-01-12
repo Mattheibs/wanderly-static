@@ -1,3 +1,4 @@
+import HowWorks from "../components/howWorks/howWorks";
 import Tours from "../components/tours/tours";
 import Wander from "../components/wander/wander";
 
@@ -14,6 +15,7 @@ function Home() {
       </div>
       <Tours />
       <Wander />
+      <HowWorks />
     </div>
   );
 }

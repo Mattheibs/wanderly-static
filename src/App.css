@@ -310,6 +310,9 @@ p,
 .is-dark-text {
   color: #505a62;
 }
+.is-dark-heading {
+  color: #343b41;
+}
 a {
   font-family: var(--font-family);
   color: rgba(80, 90, 98, 1);

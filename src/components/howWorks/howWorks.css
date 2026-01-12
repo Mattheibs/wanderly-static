@@ -1,0 +1,22 @@
+.how-works-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.how-works-panel-grid-item {
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f8fafa;
+  height: 100%;
+}
+.how-works-panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20.25rem);
+  gap: 1rem;
+  justify-content: center;
+}

@@ -1,3 +1,4 @@
+import Footer from "../components/footer/footer";
 import HowWorks from "../components/howWorks/howWorks";
 import ReadyToWander from "../components/readyToWander/readyToWander";
 import Reviews from "../components/reviews/reviews";
@@ -20,6 +21,7 @@ function Home() {
       <HowWorks />
       <Reviews />
       <ReadyToWander />
+      <Footer />
     </div>
   );
 }

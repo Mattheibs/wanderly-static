@@ -1,0 +1,8 @@
+.rooted {
+  background-image: url("../../assets/images/rooted-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rooted h2 {
+  max-width: 25.75rem;
+}

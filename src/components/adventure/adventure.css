@@ -1,0 +1,18 @@
+.adventure-container {
+  background-color: #f2f4f5;
+  padding: 6rem 0;
+}
+.adventure {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+.adventure div {
+  max-width: 40rem;
+}
+
+.adventure img {
+  max-width: 40.43rem;
+  border-radius: 2rem;
+}

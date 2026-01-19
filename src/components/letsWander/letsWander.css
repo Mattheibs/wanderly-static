@@ -1,0 +1,25 @@
+.lets-wander-container {
+  padding: 10.625rem 0;
+  background-image: url("../../assets/images/lets-wander-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lets-wander {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem 2.75rem;
+  text-align: center;
+}
+.lets-wander div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.lets-wander a {
+  padding: 1rem 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}

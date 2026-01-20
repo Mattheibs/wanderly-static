@@ -1,0 +1,12 @@
+.guided-bg {
+  background-image: url("../../assets/images/guided-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.guided {
+  padding: 11rem 0;
+}
+
+.guided p {
+  max-width: 40.5rem;
+}

@@ -6,6 +6,7 @@ import "./App.css";
 import Footer from "./components/footer/footer";
 import OurStory from "./pages/our-story";
 import OurGuides from "./pages/ourGuides";
+import BookingProcess from "./pages/bookingProcess";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/our-story" element={<OurStory />} />
           <Route path="/our-guides" element={<OurGuides />} />
+          <Route path="/booking-process" element={<BookingProcess />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

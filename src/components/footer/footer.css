@@ -1,3 +1,7 @@
+.footer-container {
+  background-color: white;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -21,7 +25,7 @@
 }
 .footer-wander {
   width: 100%;
-  z-index: -1;
+  z-index: 1;
   position: relative;
 }
 .footer-cc {
@@ -31,6 +35,8 @@
   justify-content: space-between;
   padding: 1.5rem 3rem;
   margin-top: -4.8rem;
+  z-index: 2;
+  position: relative;
 }
 .footer-cc div {
   display: flex;

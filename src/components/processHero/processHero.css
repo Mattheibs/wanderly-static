@@ -1,0 +1,35 @@
+body {
+  background-color: #e7eced;
+}
+
+.process-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.booking-process-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.process-item {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.process-item-heading,
+.process-item-tip {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.process-item-heading h2 {
+  font-size: 2rem;
+}

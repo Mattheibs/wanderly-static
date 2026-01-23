@@ -7,6 +7,7 @@ import Footer from "./components/footer/footer";
 import OurStory from "./pages/our-story";
 import OurGuides from "./pages/ourGuides";
 import BookingProcess from "./pages/bookingProcess";
+import Faqs from "./pages/faqs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/our-story" element={<OurStory />} />
           <Route path="/our-guides" element={<OurGuides />} />
           <Route path="/booking-process" element={<BookingProcess />} />
+          <Route path="/travel-faq" element={<Faqs />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

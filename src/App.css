@@ -360,7 +360,8 @@ a {
   z-index: -1;
 }
 
-.our-story {
+.our-story,
+.faq {
   margin-top: 8rem;
   padding-bottom: 11.688rem;
 }

@@ -1,12 +1,11 @@
-body {
-  background-color: #e7eced;
-}
-
 .process-hero {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 2rem;
+}
+.process-container {
+  background-color: #e7eced;
 }
 
 .booking-process-items {

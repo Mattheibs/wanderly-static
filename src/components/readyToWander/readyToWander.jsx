@@ -1,5 +1,5 @@
 import "./readyToWander.css";
-import mailIcon from "../../assets/images/mail-icon.svg";
+import mailIcon from "../../assets/images/iconImages/mail-icon.svg";
 
 function ReadyToWander() {
   return (

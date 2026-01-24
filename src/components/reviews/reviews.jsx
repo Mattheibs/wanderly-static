@@ -3,7 +3,7 @@ import "./reviews.css";
 import review1 from "../../assets/images/reviews1.png";
 import review3 from "../../assets/images/reviews2.png";
 import review2 from "../../assets/images/reviews3.png";
-import reviewStar from "../../assets/images/review-star.svg";
+import reviewStar from "../../assets/images/iconImages/review-star.svg";
 import quotes from "../../assets/images/quotes.svg";
 
 function Reviews() {

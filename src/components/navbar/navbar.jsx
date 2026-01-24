@@ -6,34 +6,34 @@ import scottishNav from "../../assets/images/scottish-highlands-nav.png";
 import lakeNav from "../../assets/images/lake-distric-nav.png";
 import yorkshireNav from "../../assets/images/yorkshire-dales-nav.png";
 import cornwallNav from "../../assets/images/cornwall-coast-nav.png";
-import navArrowWhite from "../../assets/images/nav-arrow.svg";
-import navArrowDown from "../../assets/images/nav-arrow-down.svg";
-import navArrowUp from "../../assets/images/nav-arrow-up.svg";
+import navArrowWhite from "../../assets/images/iconImages/nav-arrow.svg";
+import navArrowDown from "../../assets/images/iconImages/nav-arrow-down.svg";
+import navArrowUp from "../../assets/images/iconImages/nav-arrow-up.svg";
 
 function Navbar() {
   const [activeMenu, setActiveMenu] = useState(null);
   const tours = [
     {
       tourName: "Scottish Highlands",
-      link: "/scottish-highlands",
+      link: "/tour/scottish-highlands",
       info: "Epic peaks & hidden gems",
       img: scottishNav,
     },
     {
       tourName: "Yorkshire Dales",
-      link: "/yorkshire-dales",
+      link: "/tour/yorkshire-dales",
       info: "Hills & village charm",
       img: yorkshireNav,
     },
     {
       tourName: "Lake District",
-      link: "/lake-district",
+      link: "/tour/lake-district",
       info: "Classic trails & wild swims",
       img: lakeNav,
     },
     {
       tourName: "Cornwall Coast",
-      link: "/cornwall-coast",
+      link: "/tour/cornwall-coast",
       info: "Clifftop walks & sea air",
       img: cornwallNav,
     },

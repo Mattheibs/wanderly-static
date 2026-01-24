@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import "./footer.css";
 import logo from "../../assets/images/footer-logo.svg";
 import footerWander from "../../assets/images/footer-wander.svg";
-import twitter from "../../assets/images/twitter.svg";
-import facebook from "../../assets/images/facebook.svg";
-import instagram from "../../assets/images/instagram.svg";
-import pinterest from "../../assets/images/pinterest.svg";
+import twitter from "../../assets/images/iconImages/twitter.svg";
+import facebook from "../../assets/images/iconImages/facebook.svg";
+import instagram from "../../assets/images/iconImages/instagram.svg";
+import pinterest from "../../assets/images/iconImages/pinterest.svg";
 
 function Footer() {
   return (
@@ -21,10 +21,10 @@ function Footer() {
             </div>
             <div className="footer-links-list">
               <p className="is-dark-heading">TOURS</p>
-              <Link to="/tours/scottish-highlands">Scottish Highlands</Link>
-              <Link to="/tours/cornwall-coast">Cornwall Coast</Link>
-              <Link to="/tours/lake-district">Lake District</Link>
-              <Link to="/tours/yorkshire-dales">Yorkshire Dales</Link>
+              <Link to="/tour/scottish-highlands">Scottish Highlands</Link>
+              <Link to="/tour/cornwall-coast">Cornwall Coast</Link>
+              <Link to="/tour/lake-district">Lake District</Link>
+              <Link to="/tour/yorkshire-dales">Yorkshire Dales</Link>
             </div>
             <div className="footer-links-list">
               <p className="is-dark-heading">HELP</p>

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import "./howWorks.css";
 import HowWorksPanel from "./howWorksPanel";
-import toursIcon from "../../assets/images/tours-icon.svg";
-import fitIcon from "../../assets/images/fit-icon.svg";
-import onlineIcon from "../../assets/images/online-icon.svg";
-import wanderIcon from "../../assets/images/wander-icon.svg";
+import toursIcon from "../../assets/images/iconImages/tours-icon.svg";
+import fitIcon from "../../assets/images/iconImages/fit-icon.svg";
+import onlineIcon from "../../assets/images/iconImages/online-icon.svg";
+import wanderIcon from "../../assets/images/iconImages/wander-icon.svg";
 
 function HowWorks() {
   const panels = [

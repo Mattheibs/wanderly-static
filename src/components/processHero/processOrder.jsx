@@ -1,4 +1,4 @@
-import lightbulbIcon from "../../assets/images/lightbuld-icon.svg";
+import lightbulbIcon from "../../assets/images/iconImages/lightbuld-icon.svg";
 function ProcessOrder({ item }) {
   return (
     <div className="process-item">

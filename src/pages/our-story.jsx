@@ -4,7 +4,7 @@ import Rooted from "../components/rooted/rooted";
 import Values from "../components/values/values";
 import WhereWanderlyBegan from "../components/whereWanderlyBegan/whereWanderlyBegan";
 import arrow from "../assets/images/arrow.svg";
-import guide from "../assets/images/guide-icon.svg";
+import guide from "../assets/images/iconImages/guide-icon.svg";
 
 function OurStory() {
   return (

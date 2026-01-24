@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import navArrowWhite from "../../assets/images/nav-arrow.svg";
+import navArrowWhite from "../../assets/images/iconImages/nav-arrow.svg";
 import "./tours.css";
 
 function ToursPanel(tour) {

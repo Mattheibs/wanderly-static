@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import ProcessOrder from "./processOrder";
-import browseIcon from "../../assets/images/browse-icon.svg";
-import chooseIcon from "../../assets/images/choose-icon.svg";
-import bookIcon from "../../assets/images/book-icon.svg";
-import planIcon from "../../assets/images/plan-icon.svg";
+import browseIcon from "../../assets/images/iconImages/browse-icon.svg";
+import chooseIcon from "../../assets/images/iconImages/choose-icon.svg";
+import bookIcon from "../../assets/images/iconImages/book-icon.svg";
+import planIcon from "../../assets/images/iconImages/plan-icon.svg";
 import "./processHero.css";
 
 function ProcessHero() {

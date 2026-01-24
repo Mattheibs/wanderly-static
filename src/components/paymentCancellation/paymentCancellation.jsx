@@ -1,9 +1,9 @@
 import "./paymentCancellation.css";
 import payment from "../../assets/images/payment.png";
-import card from "../../assets/images/wallet-icon.svg";
-import cancel from "../../assets/images/cancel-icon.svg";
-import transfer from "../../assets/images/transfer-icon.svg";
-import details from "../../assets/images/details-icon.svg";
+import card from "../../assets/images/iconImages/wallet-icon.svg";
+import cancel from "../../assets/images/iconImages/cancel-icon.svg";
+import transfer from "../../assets/images/iconImages/transfer-icon.svg";
+import details from "../../assets/images/iconImages/details-icon.svg";
 
 function PaymentCancellation() {
   return (

@@ -1,10 +1,10 @@
 import "./included.css";
 import included from "../../assets/images/included.png";
-import hand from "../../assets/images/hand-icon.svg";
-import car from "../../assets/images/car-icon.svg";
-import fork from "../../assets/images/fork-icon.svg";
-import cal from "../../assets/images/cal-icon.svg";
-import people from "../../assets/images/people-icon.svg";
+import hand from "../../assets/images/iconImages/hand-icon.svg";
+import car from "../../assets/images/iconImages/car-icon.svg";
+import fork from "../../assets/images/iconImages/fork-icon.svg";
+import cal from "../../assets/images/iconImages/cal-icon.svg";
+import people from "../../assets/images/iconImages/people-icon.svg";
 
 function Included() {
   return (

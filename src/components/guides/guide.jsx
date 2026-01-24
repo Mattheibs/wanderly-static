@@ -1,4 +1,4 @@
-import pinkTick from "../../assets/images/pink-tick.svg";
+import pinkTick from "../../assets/images/iconImages/pink-tick.svg";
 
 function Guide({ guide }) {
   return (

@@ -1,5 +1,8 @@
 import { useParams } from "react-router-dom";
 import tourData from "../components/tourData";
+import TourPageHero from "../components/tourPage/tourPageHero";
+import "../components/tourPage/tourPage.css";
+import TourPageGuides from "../components/tourPage/tourPageGuides";
 
 function TourPage() {
   const { tourSlug } = useParams();
@@ -11,19 +14,10 @@ function TourPage() {
   }
 
   return (
-    <div>
-      <div className="faq-bg"></div>
-
-      <div className="faq max-width-medium">
-        <h1 className="padding-small padding-bottom is-dark-heading">
-          {tour.tourName}
-        </h1>
-
-        <h4 className="is-dark-text">
-          Got a question about {tour.tourName}? We’ve got you covered.
-        </h4>
-      </div>
-    </div>
+    <>
+      <TourPageHero tour={tour} />
+      <TourPageGuides tour={tour} />
+    </>
   );
 }
 

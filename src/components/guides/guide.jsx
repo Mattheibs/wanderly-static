@@ -9,9 +9,9 @@ function Guide({ guide }) {
       </div>
       <h3 className="is-dark-heading">{guide.guideName}</h3>
       <div className="guide-certs">
-        {guide.certifications.map((cert) => {
+        {guide.certifications.map((cert, index) => {
           return (
-            <div>
+            <div key={index}>
               <img src={pinkTick} alt="" />
               <p className="is-dark-text">{cert}</p>
             </div>

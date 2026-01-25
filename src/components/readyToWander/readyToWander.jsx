@@ -16,7 +16,7 @@ function ReadyToWander() {
             </p>
             <form>
               <div className="label-container">
-                <label className="text-size-small" for="firstName">
+                <label className="text-size-small" htmlFor="firstName">
                   First Name
                 </label>
                 <input
@@ -26,7 +26,7 @@ function ReadyToWander() {
                 />
               </div>
               <div className="label-container">
-                <label className="text-size-small" for="email">
+                <label className="text-size-small" htmlFor="email">
                   Email Address
                 </label>
                 <input type="email" placeholder="you@example.com" id="email" />

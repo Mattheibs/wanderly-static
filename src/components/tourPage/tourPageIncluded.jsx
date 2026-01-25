@@ -7,9 +7,12 @@ function TourPageIncluded({ tour }) {
           <h2 className="is-dark-heading padding-small padding-bottom">
             What’s Included?
           </h2>
-          {tour.included.map((item) => {
+          {tour.included.map((item, index) => {
             return (
-              <div className="tour-page-included-text-included-container">
+              <div
+                key={index}
+                className="tour-page-included-text-included-container"
+              >
                 <img src={item.img} alt="" />
                 <p className="is-dark-text">{item.text}</p>
               </div>

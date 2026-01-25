@@ -6,6 +6,8 @@ import TourPageGuides from "../components/tourPage/tourPageGuides";
 import TourPageIncluded from "../components/tourPage/tourPageIncluded";
 import TourPageGridImages from "../components/tourPage/tourPageGridImages";
 import TourPageItinerary from "../components/tourPage/tourPageItenerary";
+import Reviews from "../components/reviews/reviews";
+import ReadyToWander from "../components/readyToWander/readyToWander";
 
 function TourPage() {
   const { tourSlug } = useParams();
@@ -23,6 +25,8 @@ function TourPage() {
       <TourPageIncluded tour={tour} />
       <TourPageGridImages tour={tour} />
       <TourPageItinerary tour={tour} />
+      <Reviews />
+      <ReadyToWander />
     </>
   );
 }

@@ -6,9 +6,9 @@ function TourPageGuides({ tour }) {
       <div className="tour-page-guides container-large padding-section-small">
         <h2 className="padding-large padding-bottom">Meet Your Guides</h2>
         <div className="tour-page-guides-grid">
-          {tour.guides.map((guide) => {
+          {tour.guides.map((guide, index) => {
             return (
-              <div className="tour-page-guides-grid-item">
+              <div key={index} className="tour-page-guides-grid-item">
                 <img src={guide.guideImg} alt="" />
                 <div className="tour-page-guides-grid-item-text">
                   <h3 className="is-dark-heading">{guide.guideName}</h3>
@@ -17,9 +17,9 @@ function TourPageGuides({ tour }) {
                   </p>
                   <p className="is-dark-heading">Specialties:</p>
                   <div className="tour-page-guides-flex">
-                    {guide.specialities.map((spec) => {
+                    {guide.specialities.map((spec, index) => {
                       return (
-                        <div>
+                        <div key={index}>
                           <img src={guideTick} alt="" />
                           <p className="is-dark-text">{spec}</p>
                         </div>

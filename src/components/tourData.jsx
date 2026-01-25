@@ -37,6 +37,12 @@ import euanGuide from "../assets/images/guideImages/euan-guide.png";
 import mayaGuide from "../assets/images/guideImages/maya-guide.png";
 import raviGuide from "../assets/images/guideImages/ravi-guide.png";
 
+import guideTick from "../assets/images/iconImages/guide-tick-icon.svg";
+import bedIcon from "../assets/images/iconImages/bed-icon.svg";
+import fork from "../assets/images/iconImages/fork-icon.svg";
+import transfer from "../assets/images/iconImages/transfer-icon.svg";
+import car from "../assets/images/iconImages/car-icon.svg";
+
 const tourData = [
   {
     tourName: "Scottish Highlands",
@@ -52,11 +58,26 @@ const tourData = [
     availability: "May–September",
     meetingPoint: "Inverness",
     included: [
-      "Certified guide",
-      "Guesthouse stays",
-      "Breakfasts + trail lunches",
-      "Transfers from Inverness",
-      "Entry fees & local transport",
+      {
+        img: guideTick,
+        text: "Certified guide",
+      },
+      {
+        img: bedIcon,
+        text: "Guesthouse stays",
+      },
+      {
+        img: fork,
+        text: "Breakfasts + trail lunches",
+      },
+      {
+        img: transfer,
+        text: "Cars from Inverness",
+      },
+      {
+        img: car,
+        text: "Entry fees & local transport",
+      },
     ],
     itinerary: [
       {
@@ -122,11 +143,26 @@ const tourData = [
     availability: "June–December",
     meetingPoint: "Windermere",
     included: [
-      "Certified local guide",
-      "Boutique countryside stays",
-      "Daily breakfasts + picnic lunches",
-      "Minibus transfers between trailheads",
-      "Boat cruise on Lake Windermere",
+      {
+        img: guideTick,
+        text: "Certified local guide",
+      },
+      {
+        img: bedIcon,
+        text: "Boutique countryside stays",
+      },
+      {
+        img: fork,
+        text: "Daily breakfasts + picnic lunches",
+      },
+      {
+        img: transfer,
+        text: "Minibus transfers between trailheads",
+      },
+      {
+        img: car,
+        text: "Boat cruise on Lake Windermere",
+      },
     ],
     itinerary: [
       { day: 1, what: "Meet in Windermere, lakeside orientation walk" },
@@ -181,11 +217,26 @@ const tourData = [
     availability: "May–September",
     meetingPoint: "St Ives",
     included: [
-      "Coastal hiking guide",
-      "Seaside guesthouse stays",
-      "Breakfasts + beachside lunches",
-      "Clifftop transport support",
-      "Sea swim & tide pool exploration",
+      {
+        img: guideTick,
+        text: "Coastal hiking guide",
+      },
+      {
+        img: bedIcon,
+        text: "Seaside guesthouse stays",
+      },
+      {
+        img: fork,
+        text: "Breakfasts + beachside lunches",
+      },
+      {
+        img: transfer,
+        text: "Clifftop transport support",
+      },
+      {
+        img: car,
+        text: "Sea swim & tide pool exploratione",
+      },
     ],
     itinerary: [
       { day: 1, what: "Meet in St Ives, coastal town wander" },
@@ -240,11 +291,26 @@ const tourData = [
     availability: "May–September",
     meetingPoint: "Skipton",
     included: [
-      "Certified countryside guide",
-      "Traditional inn accommodations",
-      "Hearty breakfasts + trail lunches",
-      "Transport between valleys & villages",
-      "Waterfall walks & heritage sites",
+      {
+        img: guideTick,
+        text: "Certified countryside guide",
+      },
+      {
+        img: bedIcon,
+        text: "Traditional inn accommodations",
+      },
+      {
+        img: fork,
+        text: "Hearty breakfasts + trail lunches",
+      },
+      {
+        img: transfer,
+        text: "Transport between valleys & villages",
+      },
+      {
+        img: car,
+        text: "Waterfall walks & heritage sites",
+      },
     ],
     itinerary: [
       { day: 1, what: "Meet in Skipton, canal-side introduction walk" },

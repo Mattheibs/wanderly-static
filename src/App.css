@@ -328,6 +328,10 @@ a {
   text-decoration: none;
 }
 
+.is-bold-text {
+  font-weight: bold;
+}
+
 /* Utility class | only uses the "-" | heading-style-h1 */
 /* Custom class | uses both "- _"  | hero-home_image */
 /* Combo class | is- | is-green-text */
@@ -389,4 +393,100 @@ a {
 .our-guides h1,
 .our-guides h4 {
   text-align: center;
+}
+
+/* Payment Page */
+.booking-payment {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.payment-line {
+  width: 100%;
+  height: 1px;
+  background-color: #e7eced;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.booking-payment-radio {
+  padding: 1rem;
+  min-width: 40rem;
+  border: 1px solid #e7eced;
+  border-radius: 1rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.booking-payment-radio span {
+  margin-left: 0.5rem;
+}
+.booking-payment-radio:has(input:checked) {
+  border: 1px solid #9804c5;
+}
+.booking-payment-radio input[type="radio"] {
+  accent-color: #9804c5;
+}
+
+.booking-payment-info form input {
+  border: 1px solid #e7eced;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #343b41;
+  outline: none;
+  width: 100%;
+}
+.booking-payment-info form label {
+  font-size: 12px;
+  color: #505a62;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+.label-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.payment-form-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.payment-form-flex .label-container:nth-of-type(1) {
+  flex: 1;
+}
+
+.booking-payment-tour {
+  padding: 2rem 2rem 3rem 2rem;
+  border: 1px solid #9daeb5;
+  border-radius: 2rem;
+  min-width: 40rem;
+}
+.booking-payment-tour-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.booking-payment-tour-header img {
+  max-width: 9.6rem;
+  border-radius: 7.78px;
+  object-fit: cover;
+  max-height: 8.4rem;
+}
+.booking-payment-tour .payment-line {
+  margin-top: 2rem;
+}
+.booking-payment-tour-header h3,
+.booking-payment-tour-header p {
+  margin-bottom: 1rem;
+}
+.booking-payment-tour-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }

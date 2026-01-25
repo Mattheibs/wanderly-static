@@ -9,6 +9,7 @@ import OurGuides from "./pages/ourGuides";
 import BookingProcess from "./pages/bookingProcess";
 import Faqs from "./pages/faqs";
 import TourPage from "./pages/tourPage";
+import PaymentPage from "./pages/paymentPage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/booking-process" element={<BookingProcess />} />
           <Route path="/travel-faq" element={<Faqs />} />
           <Route path="/tour/:tourSlug" element={<TourPage />} />
+          <Route path="/tour/booking/:tourSlug" element={<PaymentPage />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

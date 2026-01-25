@@ -65,7 +65,10 @@ function TourPageHero({ tour }) {
               <p className="is-dark-text">Meeting Point: {tour.meetingPoint}</p>
             </div>
           </div>
-          <Link className="button is-accent-color" to="tour/booking">
+          <Link
+            className="button is-accent-color"
+            to={`/tour/booking/${tour.tourSlug}`}
+          >
             Proceed to Booking <img src={arrow} alt="" />
           </Link>
         </div>

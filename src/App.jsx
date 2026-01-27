@@ -10,6 +10,7 @@ import BookingProcess from "./pages/bookingProcess";
 import Faqs from "./pages/faqs";
 import TourPage from "./pages/tourPage";
 import PaymentPage from "./pages/paymentPage";
+import ContactUs from "./pages/contactUs";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/travel-faq" element={<Faqs />} />
           <Route path="/tour/:tourSlug" element={<TourPage />} />
           <Route path="/tour/booking/:tourSlug" element={<PaymentPage />} />
+          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

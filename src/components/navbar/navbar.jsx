@@ -161,7 +161,9 @@ function Navbar() {
             )}
           </div>
         </div>
-        <button className="button is-clear">Contact Us</button>
+        <Link to="/contact-us" className="button is-clear">
+          Contact Us
+        </Link>
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ function PaymentPage() {
       <div className="booking-payment container-large">
         <div className="booking-payment-info">
           <p className="text-size-medium is-dark-text padding-small padding-bottom">
-            {tour.tourName}
+            {tour.tourName} &gt;
             <span className="is-dark-heading is-bold-text">
               Confirm and pay
             </span>
@@ -80,6 +80,9 @@ function PaymentPage() {
           <h3 className="is-dark-heading padding-small padding-bottom">
             Cancellation policy
           </h3>
+          <p className="is-dark-text padding-small padding-bottom">
+            Free cancellation before [Date] for a partial refund.
+          </p>
           <button className="button is-accent-color">Confirm and Pay</button>
         </div>
         <div className="booking-payment-tour">

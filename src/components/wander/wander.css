@@ -4,11 +4,13 @@
   background-size: cover;
 }
 
-.wander-text {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-align: start;
+@media (max-width: 40rem) {
+  .wander h4 {
+    max-width: 21rem;
+  }
+  .wander a {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
 }

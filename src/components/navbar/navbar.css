@@ -96,3 +96,14 @@
 .nav-link-container img {
   margin-top: 0.1rem;
 }
+.navbar-hamburger {
+  display: none;
+}
+@media (max-width: 40rem) {
+  .navbar-hamburger {
+    display: block;
+  }
+  .mobile-hidden {
+    display: none;
+  }
+}

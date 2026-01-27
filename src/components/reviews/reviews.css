@@ -38,7 +38,9 @@
   height: 7.5rem;
   object-fit: cover;
   cursor: pointer;
-  transition: height 0.35s ease, transform 0.35s ease;
+  transition:
+    height 0.35s ease,
+    transform 0.35s ease;
   border-radius: 12px;
 }
 
@@ -60,4 +62,29 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.mobile-show-reviews {
+  display: none;
+}
+@media (max-width: 40rem) {
+  .reviews-container-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  .mobile-hidden {
+    display: none;
+  }
+  .review-quotes {
+    max-width: 7.8rem;
+  }
+  .reviews-container-text {
+    padding: 1.5rem;
+  }
+  .mobile-show-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
 }

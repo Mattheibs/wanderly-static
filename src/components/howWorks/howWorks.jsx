@@ -34,13 +34,18 @@ function HowWorks() {
       <div className="container-large padding-section-small">
         <div className="how-works-top padding-large padding-bottom">
           <h2 className="is-dark-heading">How It Works</h2>
-          <Link className="button is-accent-color">Explore All Tours</Link>
+          <Link className="button is-accent-color mobile-hidden">
+            Explore All Tours
+          </Link>
         </div>
         <div className="how-works-panel-grid">
           {panels.map((panel) => (
             <HowWorksPanel key={panel.heading} {...panel} />
           ))}
         </div>
+        <Link className="button margin-small margin-top is-accent-color mobile-show">
+          Explore All Tours
+        </Link>
       </div>
     </div>
   );

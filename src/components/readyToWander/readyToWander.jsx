@@ -4,7 +4,7 @@ import mailIcon from "../../assets/images/iconImages/mail-icon.svg";
 function ReadyToWander() {
   return (
     <div className="ready-to-wander-container">
-      <div className="global-padding">
+      <div className="padding-global">
         <div className="container-large padding-section-small">
           <div className="ready-to-wander">
             <h2 className="is-dark-heading padding-small padding-bottom">

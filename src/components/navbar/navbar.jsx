@@ -9,6 +9,7 @@ import cornwallNav from "../../assets/images/cornwall-coast-nav.png";
 import navArrowWhite from "../../assets/images/iconImages/nav-arrow.svg";
 import navArrowDown from "../../assets/images/iconImages/nav-arrow-down.svg";
 import navArrowUp from "../../assets/images/iconImages/nav-arrow-up.svg";
+import hamburger from "../../assets/images/iconImages/hamburger.svg";
 
 function Navbar() {
   const [activeMenu, setActiveMenu] = useState(null);
@@ -43,7 +44,8 @@ function Navbar() {
     <div className="padding-global">
       <div className="navbar-container">
         <img src={logo} />
-        <div className="navbar_links">
+        <img src={hamburger} className="navbar-hamburger" />
+        <div className="navbar_links mobile-hidden">
           <Link to="/" className="nav-link">
             Home
           </Link>
@@ -161,7 +163,7 @@ function Navbar() {
             )}
           </div>
         </div>
-        <Link to="/contact-us" className="button is-clear">
+        <Link to="/contact-us" className="button is-clear mobile-hidden">
           Contact Us
         </Link>
       </div>

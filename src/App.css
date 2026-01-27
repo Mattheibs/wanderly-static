@@ -553,3 +553,63 @@ a {
   border-radius: 1rem;
   resize: none;
 }
+
+@media (max-width: 40rem) {
+  h1,
+  .heading-style-h1 {
+    font-size: 2rem;
+  }
+
+  h2,
+  .heading-style-h2 {
+    font-size: 2rem;
+  }
+
+  h4,
+  .heading-style-h4 {
+    font-size: 1rem;
+  }
+
+  .padding-global {
+    padding: 0 1.25rem;
+  }
+
+  .padding-section-large {
+    padding: 6.25rem 0;
+  }
+
+  .padding-section-medium {
+    padding: 3rem 0;
+  }
+
+  .padding-section-small {
+    padding: 2.625rem 0;
+  }
+
+  .padding-large {
+    padding: 2rem;
+  }
+
+  .padding-medium {
+    padding: 2rem;
+  }
+
+  .margin-large {
+    margin: 2rem;
+  }
+  .margin-medium {
+    margin: 2rem;
+  }
+  .home-bg {
+    max-height: 29rem;
+  }
+  .home {
+    text-align: center;
+    margin-top: 7.5rem;
+    padding-bottom: 6.25rem;
+  }
+  .home h4 {
+    max-width: 21.5rem;
+    margin: 0 auto;
+  }
+}

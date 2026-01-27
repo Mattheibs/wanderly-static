@@ -28,13 +28,13 @@ function Reviews() {
   const images = [review1, review2, review3];
   return (
     <div className="reviews">
-      <div className="global-padding">
+      <div className="padding-global">
         <div className="container-large padding-section-small">
           <h2 className="is-dark-heading padding-medium padding-bottom">
             What Our Travelers Are Saying
           </h2>
           <div className="reviews-container">
-            <div className="reviews-container-images">
+            <div className="reviews-container-images mobile-hidden">
               {images.map((img, index) => (
                 <img
                   key={index}
@@ -47,7 +47,7 @@ function Reviews() {
                 />
               ))}
             </div>
-            <div className="reviews-container-text">
+            <div className="reviews-container-text mobile-hidden">
               <h3 className="reviews-container-text-heading is-dark-heading">
                 {reviews[selectedReview].review}
               </h3>
@@ -62,6 +62,26 @@ function Reviews() {
                 </div>
               </div>
               <img className="review-quotes" src={quotes} alt="" />
+            </div>
+            <div className="mobile-show-reviews">
+              {reviews.map((review) => {
+                return (
+                  <div className="reviews-container-text">
+                    <h3 className="reviews-container-text-heading is-dark-heading">
+                      {review.review}
+                    </h3>
+                    <div>
+                      <h4 className="is-dark-text">{review.reviewName}</h4>
+                      <div className="review-stars">
+                        {[...Array(5)].map((_, i) => (
+                          <img key={i} src={reviewStar} alt="" />
+                        ))}
+                      </div>
+                    </div>
+                    <img className="review-quotes" src={quotes} alt="" />
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>

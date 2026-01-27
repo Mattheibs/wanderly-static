@@ -99,11 +99,30 @@
 .navbar-hamburger {
   display: none;
 }
+.navbar-container-mobile {
+  display: none;
+}
 @media (max-width: 40rem) {
   .navbar-hamburger {
     display: block;
+    width: 2rem;
   }
   .mobile-hidden {
     display: none;
+  }
+  .navbar-container-mobile {
+    position: fixed;
+    background-color: white;
+    height: 50dvh;
+    width: 80dvw;
+    top: 7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    border-radius: 2rem;
   }
 }

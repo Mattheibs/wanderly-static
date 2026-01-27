@@ -10,8 +10,11 @@ import navArrowWhite from "../../assets/images/iconImages/nav-arrow.svg";
 import navArrowDown from "../../assets/images/iconImages/nav-arrow-down.svg";
 import navArrowUp from "../../assets/images/iconImages/nav-arrow-up.svg";
 import hamburger from "../../assets/images/iconImages/hamburger.svg";
+import close from "../../assets/images/iconImages/close.svg";
+import MobileNavbar from "./mobileNav";
 
 function Navbar() {
+  const [mobileMenuShown, setMobileMenuShown] = useState(false);
   const [activeMenu, setActiveMenu] = useState(null);
   const tours = [
     {
@@ -40,11 +43,28 @@ function Navbar() {
     },
   ];
 
+  const openMobileMenu = () => {
+    setMobileMenuShown(!mobileMenuShown);
+  };
+
   return (
     <div className="padding-global">
       <div className="navbar-container">
         <img src={logo} />
-        <img src={hamburger} className="navbar-hamburger" />
+        {!mobileMenuShown ? (
+          <img
+            src={hamburger}
+            className="navbar-hamburger"
+            onClick={openMobileMenu}
+          />
+        ) : (
+          <img
+            src={close}
+            className="navbar-hamburger"
+            onClick={openMobileMenu}
+          />
+        )}
+
         <div className="navbar_links mobile-hidden">
           <Link to="/" className="nav-link">
             Home
@@ -167,6 +187,7 @@ function Navbar() {
           Contact Us
         </Link>
       </div>
+      {mobileMenuShown && <MobileNavbar />}
     </div>
   );
 }

@@ -39,7 +39,7 @@ function ProcessHero() {
   return (
     <div className="padding-global">
       <div className="process-hero container-large padding-section-small">
-        <div className="process-hero-">
+        <div className="process-hero-full">
           <h1 className="is-dark-heading padding-small padding-bottom">
             Ready to Wander? Here’s How It Works.
           </h1>

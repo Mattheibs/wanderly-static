@@ -7,22 +7,22 @@ import cornwallPanel from "../../assets/images/cornwall-panel.png";
 function Tours() {
   const tours = [
     {
-      link: "/scottish-highlands",
+      link: "/tour/scottish-highlands",
       info: "Hike the Scottish Highlands",
       img: scottishPanel,
     },
     {
-      link: "/yorkshire-dales",
+      link: "/tour/yorkshire-dales",
       info: "History walks through Yorkshire",
       img: yorkshirePanel,
     },
     {
-      link: "/lake-district",
+      link: "/tour/lake-district",
       info: "Wild swim in the Lake District",
       img: lakePanel,
     },
     {
-      link: "/cornwall-coast",
+      link: "/tour/cornwall-coast",
       info: "Explore Cornwall’s Coastal Trails",
       img: cornwallPanel,
     },

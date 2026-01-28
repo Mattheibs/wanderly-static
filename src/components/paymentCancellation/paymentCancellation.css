@@ -18,3 +18,12 @@
   border-radius: 2rem;
   object-fit: cover;
 }
+
+@media (max-width: 40rem) {
+  .payment-cancellation {
+    flex-direction: column-reverse;
+  }
+  .payment-cancellation img {
+    max-width: 100%;
+  }
+}

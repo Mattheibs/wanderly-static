@@ -187,7 +187,7 @@ function Navbar() {
           Contact Us
         </Link>
       </div>
-      {mobileMenuShown && <MobileNavbar />}
+      {mobileMenuShown && <MobileNavbar closeMenu={openMobileMenu} />}
     </div>
   );
 }

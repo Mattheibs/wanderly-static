@@ -200,3 +200,54 @@
 .tour-page-itinerary-items-item img {
   max-width: 2.5rem;
 }
+
+@media (max-width: 40rem) {
+  .tour-page-hero {
+    flex-direction: column;
+  }
+  .tour-page-hero-main-img {
+    max-width: 100%;
+  }
+  .tour-page-guides-grid {
+    grid-template-columns: repeat(auto-fill, 100%);
+    gap: 2rem;
+  }
+  .tour-page-guides-grid-item {
+    padding: 1.5rem;
+    flex-direction: column;
+  }
+  #tour-page-guides-grid-item-guide-img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .tour-page-included {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .tour-page-grid-images {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+  .tour-page-grid-images div {
+    max-height: 17.4rem;
+  }
+  .tour-page-grid-images div:nth-of-type(3) {
+    grid-row: span 1;
+  }
+  .tour-page-itinerary {
+    flex-direction: column;
+  }
+  .tour-page-itinerary-items-item {
+    min-width: 0rem;
+    width: 100%;
+  }
+  .tour-page-itinerary-items {
+    width: 100%;
+  }
+  .tour-page-itinerary-items-item p {
+    padding: 4.4rem 0 0 0;
+  }
+  .tour-page-itinerary h2 {
+    position: relative;
+    top: 0;
+  }
+}

@@ -22,3 +22,12 @@
   border-radius: 2rem;
   object-fit: cover;
 }
+
+@media (max-width: 40rem) {
+  .included {
+    flex-direction: column;
+  }
+  .included img {
+    max-width: 100%;
+  }
+}

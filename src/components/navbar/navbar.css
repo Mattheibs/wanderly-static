@@ -113,7 +113,6 @@
   .navbar-container-mobile {
     position: fixed;
     background-color: white;
-    height: 50dvh;
     width: 80dvw;
     top: 7rem;
     left: 50%;
@@ -124,5 +123,7 @@
     gap: 2rem;
     align-items: center;
     border-radius: 2rem;
+    box-shadow: 0 0 10px 0px #343b41;
+    z-index: 10;
   }
 }

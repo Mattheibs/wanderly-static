@@ -290,7 +290,7 @@ label {
   margin-top: 0;
 }
 .button {
-  padding: 0.5rem 1.5rem;
+  padding: 1rem 1.5rem;
   border-radius: 6.25rem;
   font-family: "Inter", sans-serif;
   line-height: 24px;
@@ -611,5 +611,65 @@ a {
   .home h4 {
     max-width: 21.5rem;
     margin: 0 auto;
+  }
+  .our-story,
+  .faq {
+    padding-bottom: 6.25rem;
+  }
+  .our-story-bg {
+    max-height: 29rem;
+  }
+  .our-guides {
+    margin-bottom: 6.25rem;
+  }
+  .our-guides-bg {
+    height: 26rem;
+  }
+  .faq h1 {
+    text-align: center;
+  }
+  .faq {
+    padding-bottom: 3rem;
+  }
+  .faq-bg {
+    max-height: 25rem;
+  }
+  .booking-payment {
+    flex-direction: column-reverse;
+  }
+  .booking-payment-tour {
+    min-width: 0;
+    padding: 1.5rem;
+  }
+  .booking-payment-tour-header {
+    gap: 1rem;
+  }
+  .payment-line,
+  .booking-payment-tour .payment-line {
+    margin: 1rem 0;
+  }
+  .booking-payment-radio {
+    min-width: 100%;
+  }
+  .booking-payment-info button {
+    width: 100%;
+    display: block;
+  }
+  .contact-us {
+    flex-direction: column;
+  }
+  .contact-us-text {
+    max-width: 100%;
+  }
+  .contact-us .input-flex {
+    flex-direction: column;
+    gap: 0rem;
+  }
+  .contact-us form button {
+    width: 100%;
+    justify-content: center;
+  }
+  .contact-us form {
+    padding: 1.5rem;
   }
 }

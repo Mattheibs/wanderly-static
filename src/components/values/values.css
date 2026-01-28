@@ -19,3 +19,18 @@
   padding: 2rem;
   text-align: center;
 }
+
+@media (max-width: 40rem) {
+  .values h2 {
+    margin-bottom: 0;
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+
+  .values-grid-item p {
+    max-width: 16.93rem;
+    justify-self: center;
+  }
+}

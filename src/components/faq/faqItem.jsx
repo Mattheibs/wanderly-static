@@ -89,43 +89,45 @@ function FaqItem() {
   }
 
   return (
-    <div className="max-width-medium">
-      {faqs.map((section, sectionIndex) => (
-        <div key={sectionIndex}>
-          <p className={`faq-main-heading ${section.class}`}>
-            {section.mainHeading}
-          </p>
+    <div className="padding-global">
+      <div className="max-width-medium">
+        {faqs.map((section, sectionIndex) => (
+          <div key={sectionIndex}>
+            <p className={`faq-main-heading ${section.class}`}>
+              {section.mainHeading}
+            </p>
 
-          {section.generalFaqs.map((faq, faqIndex) => {
-            const key = `${sectionIndex}-${faqIndex}`;
+            {section.generalFaqs.map((faq, faqIndex) => {
+              const key = `${sectionIndex}-${faqIndex}`;
 
-            return (
-              <div
-                key={key}
-                className="faq-item"
-                onClick={() => toggleFaq(sectionIndex, faqIndex)}
-              >
-                <div className="faq-heading">
-                  <p className="text-side-medium is-dark-heading">
-                    {faq.heading}
-                  </p>
+              return (
+                <div
+                  key={key}
+                  className="faq-item"
+                  onClick={() => toggleFaq(sectionIndex, faqIndex)}
+                >
+                  <div className="faq-heading">
+                    <p className="text-side-medium is-dark-heading">
+                      {faq.heading}
+                    </p>
 
-                  <img
-                    src={openIndex === key ? accordionOpen : accordionClosed}
-                    alt=""
-                  />
-                </div>
-
-                {openIndex === key && (
-                  <div className="faq-text">
-                    <p className="is-dark-text">{faq.text}</p>
+                    <img
+                      src={openIndex === key ? accordionOpen : accordionClosed}
+                      alt=""
+                    />
                   </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
-      ))}
+
+                  {openIndex === key && (
+                    <div className="faq-text">
+                      <p className="is-dark-text">{faq.text}</p>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

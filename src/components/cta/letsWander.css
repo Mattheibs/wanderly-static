@@ -22,3 +22,16 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 40rem) {
+  .lets-wander {
+    padding: 1.5rem;
+  }
+  .lets-wander div {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .lets-wander a {
+    width: 100%;
+  }
+}

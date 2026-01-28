@@ -10,8 +10,10 @@ function OurStory() {
   return (
     <div>
       <div className="our-story-bg"></div>
-      <div className="our-story max-width-medium">
-        <h1>Travel that slows you down — and wakes you up.</h1>
+      <div className="padding-global">
+        <div className="our-story max-width-medium">
+          <h1>Travel that slows you down — and wakes you up.</h1>
+        </div>
       </div>
       <WhereWanderlyBegan />
       <Rooted />

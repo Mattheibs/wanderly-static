@@ -6,3 +6,9 @@
 .rooted h2 {
   max-width: 25.75rem;
 }
+
+@media (max-width: 40rem) {
+  .rooted h2 {
+    max-width: 18.75rem;
+  }
+}

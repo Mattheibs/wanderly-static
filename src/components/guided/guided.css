@@ -10,3 +10,26 @@
 .guided p {
   max-width: 40.5rem;
 }
+
+@media (max-width: 40rem) {
+  .guided-bg {
+    background-image: url("../../assets/images/guided-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .guided {
+    padding: 3rem 0;
+  }
+
+  .guided p,
+  .guided h2 {
+    max-width: 20.93rem;
+  }
+
+  .guided a {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}

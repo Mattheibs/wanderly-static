@@ -32,3 +32,21 @@
 .process-item-heading h2 {
   font-size: 2rem;
 }
+
+@media (max-width: 40rem) {
+  .process-hero {
+    flex-direction: column;
+  }
+  .process-hero h1,
+  .process-hero p {
+    max-width: 20.9rem;
+  }
+  .process-hero-full {
+    width: 100%;
+  }
+  .process-hero a {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}

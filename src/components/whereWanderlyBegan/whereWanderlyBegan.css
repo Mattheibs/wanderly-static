@@ -6,3 +6,13 @@
 .our-story div {
   max-width: 43.75rem;
 }
+
+@media (max-width: 40rem) {
+  .our-story {
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .our-story h2 {
+    max-width: 20.9rem;
+  }
+}

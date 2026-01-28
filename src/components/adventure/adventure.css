@@ -16,3 +16,16 @@
   max-width: 40.43rem;
   border-radius: 2rem;
 }
+
+@media (max-width: 40rem) {
+  .adventure-container {
+    padding: 3rem 0;
+  }
+  .adventure {
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .adventure img {
+    max-width: 100%;
+  }
+}

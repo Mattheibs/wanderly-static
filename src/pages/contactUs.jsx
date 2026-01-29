@@ -38,6 +38,7 @@ function ContactUs() {
                   type="text"
                   placeholder="Your First Name"
                   id="firstName"
+                  required
                 />
               </div>
               <div className="label-container">
@@ -48,6 +49,7 @@ function ContactUs() {
                   type="text"
                   placeholder="Your First Name"
                   id="lastName"
+                  required
                 />
               </div>
             </div>
@@ -55,13 +57,23 @@ function ContactUs() {
               <label className="text-size-small" htmlFor="email">
                 Email Address
               </label>
-              <input type="email" placeholder="you@example.com" id="email" />
+              <input
+                type="email"
+                required
+                placeholder="you@example.com"
+                id="email"
+              />
             </div>
             <div className="label-container">
               <label className="text-size-small" htmlFor="number">
                 Phone Number (Optional)
               </label>
-              <input type="text" placeholder="000-000-0000" id="number" />
+              <input
+                required
+                type="text"
+                placeholder="000-000-0000"
+                id="number"
+              />
             </div>
             <div className="label-container">
               <label className="text-size-small" htmlFor="message">

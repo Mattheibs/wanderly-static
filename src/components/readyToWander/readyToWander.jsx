@@ -23,13 +23,19 @@ function ReadyToWander() {
                   type="text"
                   placeholder="Your First Name"
                   id="firstName"
+                  required
                 />
               </div>
               <div className="label-container">
                 <label className="text-size-small" htmlFor="email">
                   Email Address
                 </label>
-                <input type="email" placeholder="you@example.com" id="email" />
+                <input
+                  required
+                  type="email"
+                  placeholder="you@example.com"
+                  id="email"
+                />
               </div>
               <button
                 className="margin-small margin-top button is-accent-color"

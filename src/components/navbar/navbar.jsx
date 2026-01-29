@@ -68,7 +68,7 @@ function Navbar() {
           />
         )}
 
-        <div className="navbar_links mobile-hidden">
+        <div className="navbar_links mobile-hidden-nav">
           <Link to="/" className="nav-link">
             Home
           </Link>

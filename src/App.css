@@ -120,7 +120,8 @@ h6,
 }
 /* 16px */
 p,
-.text-size-regular {
+.text-size-regular,
+span {
   color: var(--primary-color);
   font-family: var(--font-family);
   font-size: 1rem;
@@ -553,7 +554,26 @@ a {
   border-radius: 1rem;
   resize: none;
 }
-
+@media (max-width: 65rem) {
+  .contact-us {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-us-text {
+    max-width: 100%;
+  }
+  .contact-us .input-flex {
+    flex-direction: column;
+    gap: 0rem;
+  }
+  .contact-us form button {
+    width: 100%;
+    justify-content: center;
+  }
+  .contact-us form {
+    padding: 1.5rem;
+  }
+}
 @media (max-width: 40rem) {
   h1,
   .heading-style-h1 {
@@ -654,22 +674,5 @@ a {
   .booking-payment-info button {
     width: 100%;
     display: block;
-  }
-  .contact-us {
-    flex-direction: column;
-  }
-  .contact-us-text {
-    max-width: 100%;
-  }
-  .contact-us .input-flex {
-    flex-direction: column;
-    gap: 0rem;
-  }
-  .contact-us form button {
-    width: 100%;
-    justify-content: center;
-  }
-  .contact-us form {
-    padding: 1.5rem;
   }
 }

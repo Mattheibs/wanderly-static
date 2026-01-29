@@ -7,11 +7,13 @@
   max-width: 43.75rem;
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 62.5rem) {
   .our-story {
     gap: 2rem;
     flex-direction: column;
   }
+}
+@media (max-width: 40rem) {
   .our-story h2 {
     max-width: 20.9rem;
   }

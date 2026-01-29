@@ -33,10 +33,12 @@
   font-size: 2rem;
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 65.625rem) {
   .process-hero {
     flex-direction: column;
   }
+}
+@media (max-width: 40rem) {
   .process-hero h1,
   .process-hero p {
     max-width: 20.9rem;

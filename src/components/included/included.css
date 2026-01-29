@@ -22,8 +22,7 @@
   border-radius: 2rem;
   object-fit: cover;
 }
-
-@media (max-width: 40rem) {
+@media (max-width: 65.625rem) {
   .included {
     flex-direction: column;
   }

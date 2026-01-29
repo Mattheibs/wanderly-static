@@ -102,12 +102,14 @@
 .navbar-container-mobile {
   display: none;
 }
-@media (max-width: 40rem) {
+
+@media (max-width: 56.25rem) {
   .navbar-hamburger {
     display: block;
     width: 2rem;
+    cursor: pointer;
   }
-  .mobile-hidden {
+  .mobile-hidden-nav {
     display: none;
   }
   .navbar-container-mobile {

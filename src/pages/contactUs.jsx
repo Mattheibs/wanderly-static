@@ -17,7 +17,7 @@ function ContactUs() {
               soon as possible.
             </p>
             <h3 className="is-dark-heading">Prefer email?</h3>
-            <span>
+            <span className="is-dark-text">
               Reach us directly at{" "}
               <a mailto="mattheibs@gmail.com">mattheibs@gmail.com</a>
             </span>

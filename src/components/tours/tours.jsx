@@ -28,8 +28,11 @@ function Tours() {
     },
   ];
   return (
-    <div className="padding-global ">
-      <div className="tours-grid container-large padding-section-small">
+    <div className="padding-global">
+      <div
+        className="tours-grid container-large padding-section-small"
+        id="scroll-tours"
+      >
         {tours.map((tour) => (
           <ToursPanel key={tour.link} {...tour} />
         ))}

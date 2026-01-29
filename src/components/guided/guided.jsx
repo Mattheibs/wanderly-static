@@ -15,7 +15,7 @@ function Guided() {
             and lead with warmth, curiosity, and care. They’ll show you the
             well-known wonders — and the hidden gems you’d never find alone.
           </p>
-          <Link className="button is-accent-color" to="">
+          <Link className="button is-accent-color" to="/#scroll-tours">
             Explore All Tours
           </Link>
         </div>

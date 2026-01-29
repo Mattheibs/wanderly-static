@@ -16,6 +16,8 @@ function BookingProcess() {
           textOne:
             "Found a trip that speaks to you? Booking only takes a few minutes.",
           buttonOne: "Explore Our Tours",
+          buttonOneLink: "/#scroll-tours",
+          buttonTwoLink: "/contact-us",
           buttonImgOne: arrow,
           buttonTwo: "Contact Us",
           class: "padding-section-small",

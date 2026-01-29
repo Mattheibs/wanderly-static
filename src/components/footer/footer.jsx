@@ -17,7 +17,7 @@ function Footer() {
             <div className="footer-links-list">
               <p className="is-dark-heading">Company</p>
               <Link to="/our-story">Our Story</Link>
-              <Link to="/guides">Meet the Guides</Link>
+              <Link to="/our-guides">Meet the Guides</Link>
             </div>
             <div className="footer-links-list">
               <p className="is-dark-heading">TOURS</p>
@@ -28,8 +28,8 @@ function Footer() {
             </div>
             <div className="footer-links-list">
               <p className="is-dark-heading">HELP</p>
-              <Link to="/faqs">FAQs</Link>
-              <Link to="/how-it-works">How It Works</Link>
+              <Link to="/travel-faq">FAQs</Link>
+              <Link to="/booking-process">How It Works</Link>
               <Link to="/contact-us">Contact Us</Link>
             </div>
           </div>

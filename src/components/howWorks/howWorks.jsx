@@ -34,7 +34,10 @@ function HowWorks() {
       <div className="container-large padding-section-small">
         <div className="how-works-top padding-large padding-bottom">
           <h2 className="is-dark-heading">How It Works</h2>
-          <Link className="button is-accent-color mobile-hidden">
+          <Link
+            className="button is-accent-color mobile-hidden"
+            to="/#scroll-tours"
+          >
             Explore All Tours
           </Link>
         </div>
@@ -43,7 +46,10 @@ function HowWorks() {
             <HowWorksPanel key={panel.heading} {...panel} />
           ))}
         </div>
-        <Link className="button margin-small margin-top is-accent-color mobile-show">
+        <Link
+          className="button margin-small margin-top is-accent-color mobile-show"
+          to="/#scroll-tours"
+        >
           Explore All Tours
         </Link>
       </div>

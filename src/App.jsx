@@ -11,11 +11,13 @@ import Faqs from "./pages/faqs";
 import TourPage from "./pages/tourPage";
 import PaymentPage from "./pages/paymentPage";
 import ContactUs from "./pages/contactUs";
+import ScrollToTop from "./utils/scrollToTop";
 
 function App() {
   return (
     <>
       <HashRouter>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

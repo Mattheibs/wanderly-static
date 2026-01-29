@@ -29,6 +29,8 @@ function OurStory() {
           buttonTwo: "Meet Our Guides",
           buttonImgOne: arrow,
           buttonImgTwo: guide,
+          buttonOneLink: "/#scroll-tours",
+          buttonTwoLink: "/our-guides",
           class: "padding-section-medium",
         }}
       />

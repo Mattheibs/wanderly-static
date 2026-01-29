@@ -36,6 +36,9 @@
 .tour-page-hero-grid-item .is-dark-heading {
   font-weight: 700;
 }
+.tours-grid {
+  margin-top: 5rem;
+}
 .tour-page-hero-pill {
   background-color: white;
   display: flex;
@@ -265,6 +268,9 @@
 @media (max-width: 40rem) {
   .tour-page-hero {
     flex-direction: column;
+  }
+  .tours-grid {
+    margin-top: 1rem;
   }
   .tour-page-hero-main-img {
     max-width: 100%;

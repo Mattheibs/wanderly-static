@@ -23,6 +23,7 @@ function Faqs() {
           textOne:
             "If you can’t find what you’re looking for, just drop us a line. We’re always happy to help.",
           buttonOne: "Contact Us",
+          buttonOneLink: "/contact-us",
           buttonImgOne: mailIcon,
           class: "padding-section-small",
         }}

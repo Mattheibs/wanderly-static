@@ -50,7 +50,10 @@ function Navbar() {
   return (
     <div className="padding-global">
       <div className="navbar-container">
-        <img src={logo} />
+        <Link to="/">
+          <img src={logo} />
+        </Link>
+
         {!mobileMenuShown ? (
           <img
             src={hamburger}

@@ -49,7 +49,7 @@ function ProcessHero() {
             last minute, we’ve made it easy to find the right trip and get
             everything sorted.
           </p>
-          <Link className="button is-accent-color " to="/">
+          <Link className="button is-accent-color " to="/#scroll-tours">
             Explore All Tours
           </Link>
         </div>

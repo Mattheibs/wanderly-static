@@ -13,7 +13,9 @@ function Wander() {
               adventures are designed for curious souls who want to connect —
               with the land, the people, and the moment.
             </h4>
-            <Link className="button is-accent-color">Meet Our Guides</Link>
+            <Link to="/our-guides" className="button is-accent-color">
+              Meet Our Guides
+            </Link>
           </div>
         </div>
       </div>

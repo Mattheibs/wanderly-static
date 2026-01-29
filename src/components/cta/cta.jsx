@@ -19,13 +19,16 @@ function Cta({ content }) {
               </p>
             )}
             <div>
-              <Link to="our-tours" className="button is-accent-color">
+              <Link
+                to={content.buttonOneLink}
+                className="button is-accent-color"
+              >
                 {content.buttonOne}
                 <img src={content.buttonImgOne} alt="" />
               </Link>
               {content.buttonTwo && (
                 <Link
-                  to="our-guides"
+                  to={content.buttonTwoLink}
                   className=" button is-secondary-accent-color"
                 >
                   {content.buttonTwo}

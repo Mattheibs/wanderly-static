@@ -64,9 +64,9 @@ function Reviews() {
               <img className="review-quotes" src={quotes} alt="" />
             </div>
             <div className="mobile-show-reviews">
-              {reviews.map((review) => {
+              {reviews.map((review, index) => {
                 return (
-                  <div className="reviews-container-text">
+                  <div key={index} className="reviews-container-text">
                     <h3 className="reviews-container-text-heading is-dark-heading">
                       {review.review}
                     </h3>

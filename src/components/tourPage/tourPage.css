@@ -200,6 +200,67 @@
 .tour-page-itinerary-items-item img {
   max-width: 2.5rem;
 }
+.tour-page-guest-selection {
+  position: relative;
+}
+.guest-count-container {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  bottom: -3rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tour-page-date-selection {
+  position: relative;
+}
+
+.calendar-container {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  z-index: 50;
+}
+
+.react-datepicker {
+  border-radius: 1rem !important;
+}
+
+.react-datepicker__header {
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
+}
+.react-datepicker__day--in-selecting-range:not(
+  .react-datepicker__day--in-range,
+  .react-datepicker__month-text--in-range,
+  .react-datepicker__quarter-text--in-range,
+  .react-datepicker__year-text--in-range,
+  .react-datepicker__day--in-range
+) {
+  background-color: var(--accent-color) !important;
+  color: white !important;
+}
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--selected,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__year-text--in-range {
+  background-color: var(--accent-color) !important;
+  color: white !important;
+}
 
 @media (max-width: 40rem) {
   .tour-page-hero {

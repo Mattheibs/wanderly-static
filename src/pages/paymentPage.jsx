@@ -1,7 +1,23 @@
 import { useParams } from "react-router-dom";
 import tourData from "../components/tourData";
+import { useState, useEffect } from "react";
+import Cookies from "js-cookie";
 
 function PaymentPage() {
+  const [guestAmount, setGuestAmount] = useState(1);
+  const [startDate, setStartDate] = useState(null);
+  const [endDate, setEndDate] = useState(null);
+
+  useEffect(() => {
+    const savedGuestAmount = Cookies.get("tourGuestAmount");
+    const savedStartDate = Cookies.get("tourStartDate");
+    const savedEndDate = Cookies.get("tourEndDate");
+
+    if (savedGuestAmount) setGuestAmount(Number(savedGuestAmount));
+    if (savedStartDate) setStartDate(new Date(savedStartDate));
+    if (savedEndDate) setEndDate(new Date(savedEndDate));
+  }, []);
+
   const { tourSlug } = useParams();
 
   const tour = tourData.find((t) => t.tourSlug === tourSlug);
@@ -24,10 +40,14 @@ function PaymentPage() {
           </h3>
           <p className="is-dark-heading is-bold-text">Dates</p>
           <p className="is-dark-text padding-small padding-bottom">
-            dates-dates
+            {startDate && endDate
+              ? `${startDate.toLocaleDateString()} → ${endDate.toLocaleDateString()}`
+              : "Dates not selected"}
           </p>
           <p className="is-dark-heading is-bold-text">Guests</p>
-          <p className="is-dark-text padding-small padding-bottom">1 guest</p>
+          <p className="is-dark-text padding-small padding-bottom">
+            {guestAmount} {guestAmount === 1 ? "guest" : "guests"}
+          </p>
           <div className="payment-line"></div>
           <h3 className="is-dark-heading padding-small padding-bottom">
             Choose how to pay

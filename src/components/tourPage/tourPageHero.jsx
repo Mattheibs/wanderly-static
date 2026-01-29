@@ -7,12 +7,28 @@ import peopleIcon from "../../assets/images/iconImages/people-icon.svg";
 import calIcon from "../../assets/images/iconImages/cal-icon.svg";
 import locationIcon from "../../assets/images/iconImages/location-icon.svg";
 import arrow from "../../assets/images/arrow.svg";
-import { Link, useAsyncError } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import Cookies from "js-cookie";
 
 function TourPageHero({ tour }) {
+  const navigate = useNavigate();
+
+  const handleProceedToBooking = () => {
+    // Save data in cookies
+    Cookies.set("tourGuestAmount", guestAmount, { expires: 7 }); // expires in 7 days
+    Cookies.set("tourStartDate", startDate ? startDate.toISOString() : "", {
+      expires: 7,
+    });
+    Cookies.set("tourEndDate", endDate ? endDate.toISOString() : "", {
+      expires: 7,
+    });
+
+    // Navigate to booking page
+    navigate(`/tour/booking/${tour.tourSlug}`);
+  };
   const [guestCountShowing, setGuestCountShowing] = useState(false);
   const [guestAmount, setGuestAmount] = useState(1);
   const [startDate, setStartDate] = useState(null);
@@ -146,12 +162,12 @@ function TourPageHero({ tour }) {
                 </p>
               </div>
             </div>
-            <Link
+            <button
               className="button is-accent-color"
-              to={`/tour/booking/${tour.tourSlug}`}
+              onClick={handleProceedToBooking}
             >
               Proceed to Booking <img src={arrow} alt="" />
-            </Link>
+            </button>
           </div>
         </div>
       </div>

@@ -343,7 +343,7 @@ a {
   left: 0;
   right: 0;
   height: 100dvh;
-  background-image: url("./assets/images/hero-bg.png");
+  background-image: url("./assets/images/hero-bg.webp");
   background-size: cover;
   z-index: -1;
 }

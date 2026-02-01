@@ -1,5 +1,5 @@
 import "./adventure.css";
-import adventure from "../../assets/images/adventure.png";
+import adventure from "../../assets/images/adventure.webp";
 
 function Adventure() {
   return (

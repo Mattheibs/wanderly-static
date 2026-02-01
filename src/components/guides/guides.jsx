@@ -1,11 +1,11 @@
 import Guide from "./guide";
 import "./guides.css";
-import ella from "../../assets/images/guideImages/ella-guide.png";
-import dan from "../../assets/images/guideImages/dan-guide.png";
-import leah from "../../assets/images/guideImages/leah-guide.png";
-import euan from "../../assets/images/guideImages/euan-guide.png";
-import maya from "../../assets/images/guideImages/maya-guide.png";
-import ravi from "../../assets/images/guideImages/ravi-guide.png";
+import ella from "../../assets/images/guideImages/ella-guide.webp";
+import dan from "../../assets/images/guideImages/dan-guide.webp";
+import leah from "../../assets/images/guideImages/leah-guide.webp";
+import euan from "../../assets/images/guideImages/euan-guide.webp";
+import maya from "../../assets/images/guideImages/maya-guide.webp";
+import ravi from "../../assets/images/guideImages/ravi-guide.webp";
 
 function Gudies() {
   const guides = [

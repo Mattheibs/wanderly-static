@@ -30,12 +30,12 @@ import yorkshireDalesGrid3 from "../assets/images/tourImages/yorkshire-dales-gri
 import yorkshireDalesGrid4 from "../assets/images/tourImages/yorkshire-dales-grid-4.png";
 import yorkshireDalesGrid5 from "../assets/images/tourImages/yorkshire-dales-grid-5.png";
 
-import ellaGuide from "../assets/images/guideImages/ella-guide.png";
-import danGuide from "../assets/images/guideImages/dan-guide.png";
-import leahGuide from "../assets/images/guideImages/leah-guide.png";
-import euanGuide from "../assets/images/guideImages/euan-guide.png";
-import mayaGuide from "../assets/images/guideImages/maya-guide.png";
-import raviGuide from "../assets/images/guideImages/ravi-guide.png";
+import ellaGuide from "../assets/images/guideImages/ella-guide.webp";
+import danGuide from "../assets/images/guideImages/dan-guide.webp";
+import leahGuide from "../assets/images/guideImages/leah-guide.webp";
+import euanGuide from "../assets/images/guideImages/euan-guide.webp";
+import mayaGuide from "../assets/images/guideImages/maya-guide.webp";
+import raviGuide from "../assets/images/guideImages/ravi-guide.webp";
 
 import guideTick from "../assets/images/iconImages/guide-tick-icon.svg";
 import bedIcon from "../assets/images/iconImages/bed-icon.svg";

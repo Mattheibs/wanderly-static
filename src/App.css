@@ -346,6 +346,7 @@ a {
   background-size: cover;
   z-index: -1;
   width: 100%;
+  object-fit: cover;
 }
 
 .home {

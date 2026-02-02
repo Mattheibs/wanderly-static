@@ -5,11 +5,17 @@ import Values from "../components/values/values";
 import WhereWanderlyBegan from "../components/whereWanderlyBegan/whereWanderlyBegan";
 import arrow from "../assets/images/arrow.svg";
 import guide from "../assets/images/iconImages/guide-icon.svg";
+import ourStoryBg from "../assets/images/our-story-bg.webp";
 
 function OurStory() {
   return (
     <div>
-      <div className="our-story-bg"></div>
+      <img
+        loading="eager"
+        fetchPriority="high"
+        src={ourStoryBg}
+        className="our-story-bg"
+      ></img>
       <div className="padding-global">
         <div className="our-story max-width-medium">
           <h1>Travel that slows you down — and wakes you up.</h1>

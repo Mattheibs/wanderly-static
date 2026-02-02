@@ -10,7 +10,7 @@
   z-index: -1;
 }
 
-.faq h4 {
+.faq h2 {
   text-align: center;
 }
 
@@ -41,18 +41,19 @@
 .faq-main-heading {
   padding: 0.25rem 1rem;
   border-radius: 56px;
-  color: #82919e;
+  color: #687885;
   border: 1px solid #82919e;
   align-self: flex-start;
   display: inline-block;
   margin: 4rem 0 2rem 0;
+  font-weight: bold;
 }
 
 .heading-orange {
-  color: #dd7801;
-  border: 1px solid #dd7801;
+  color: #9f5600;
+  border: 1px solid #9f5600;
 }
 .heading-pink {
-  color: #f571ab;
-  border: 1px solid #f571ab;
+  color: #a43a61;
+  border: 1px solid #a43a61;
 }

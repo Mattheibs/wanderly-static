@@ -1,5 +1,10 @@
 .tour-page-hero-bg {
   background-color: #e7eced;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+  width: 100vw;
 }
 .tour-page-hero {
   margin-top: 3rem;
@@ -65,7 +70,7 @@
   padding-left: 5%;
 }
 .tour-page-guides-bg {
-  background-image: url("../../assets/images/tourImages/tour-page-guides.png");
+  background-image: url("../../assets/images/tourImages/tour-page-guides.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -100,8 +105,8 @@
   margin-bottom: 0.5rem;
 }
 .tour-page-guides-grid-item-pill {
-  color: #f571ab !important;
-  border: 1px solid #f571ab;
+  color: #a43a61 !important;
+  border: 1px solid #a43a61;
   padding: 4px 1rem;
   border-radius: 56px;
   text-transform: uppercase;

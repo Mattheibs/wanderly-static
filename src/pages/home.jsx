@@ -9,12 +9,12 @@ function Home() {
     <div>
       <div className="home-bg"></div>
       <div className="padding-global">
-        <div className="home max-width-medium">
+        <div className="home max-width-medium ">
           <h1>Uncover the Untamed Beauty of the UK</h1>
-          <h4 className="padding-small padding-top">
+          <h2 className="padding-small padding-top heading-style-h4">
             Small-group guided adventures through Britain’s most breathtaking
             landscapes.
-          </h4>
+          </h2>
         </div>
       </div>
       <Tours />

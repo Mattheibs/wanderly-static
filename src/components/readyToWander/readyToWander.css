@@ -18,7 +18,7 @@
   position: relative;
 }
 .ready-to-wander-container {
-  background: url("../../assets/images/ready-to-wander-bg.png");
+  background: url("../../assets/images/ready-to-wander-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -2,7 +2,7 @@ function HowWorksPanel(panel) {
   return (
     <div>
       <div className="how-works-panel-grid-item">
-        <img src={panel.img} alt="" />
+        <img loading="lazy" src={panel.img} alt="" />
         <h3 className="is-dark-heading padding-small padding-top">
           {panel.heading}
         </h3>

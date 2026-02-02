@@ -11,9 +11,9 @@ function Values() {
       <div className="padding-global">
         <div className="container-large padding-section-medium">
           <h2 className="is-dark-heading">Our Values</h2>
-          <h4 className="padding-large padding-bottom is-dark-text">
+          <h3 className=" heading-style-h4 padding-large padding-bottom is-dark-text">
             We build Wanderly around four simple principles:
-          </h4>
+          </h3>
           <div className="values-grid">
             <ValuesGridItem
               heading={"Connection"}

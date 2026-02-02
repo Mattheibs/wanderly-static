@@ -1,5 +1,5 @@
 import "./paymentCancellation.css";
-import payment from "../../assets/images/payment.png";
+import payment from "../../assets/images/payment.webp";
 import card from "../../assets/images/iconImages/wallet-icon.svg";
 import cancel from "../../assets/images/iconImages/cancel-icon.svg";
 import transfer from "../../assets/images/iconImages/transfer-icon.svg";

@@ -8,10 +8,10 @@ function OurGuides() {
       <div className="padding-global">
         <div className="our-guides max-width-medium">
           <h1 className="is-dark-heading">Meet Our Guides</h1>
-          <h4 className="is-dark-text padding-small padding-top">
+          <h2 className="heading-style-h4 is-dark-text padding-small padding-top">
             At Wanderly, our guides aren’t just experts — they’re locals,
             storytellers, naturalists, and adventurers.
-          </h4>
+          </h2>
         </div>
       </div>
       <Guides />

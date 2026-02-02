@@ -6,14 +6,14 @@ function Faqs() {
   return (
     <div>
       <div className="faq-bg"></div>
-      <div class="padding-global">
+      <div className="padding-global">
         <div className="faq max-width-medium">
           <h1 className="padding-small padding-bottom is-dark-heading">
             Frequently Asked Questions
           </h1>
-          <h4 className="is-dark-text">
+          <h2 className="is-dark-text heading-style-h4">
             Got a question? We’ve got you covered.
-          </h4>
+          </h2>
         </div>
       </div>
       <FaqItem />

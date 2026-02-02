@@ -1,7 +1,7 @@
 import ToursPanel from "./tourPanel";
 import scottishPanel from "../../assets/images/scottish-panel.png";
 import yorkshirePanel from "../../assets/images/yorkshire-panel.png";
-import lakePanel from "../../assets/images/lake-panel.png";
+import lakePanel from "../../assets/images/lake-panel.webp";
 import cornwallPanel from "../../assets/images/cornwall-panel.webp";
 
 function Tours() {

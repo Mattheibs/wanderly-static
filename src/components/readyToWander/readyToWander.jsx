@@ -42,7 +42,7 @@ function ReadyToWander() {
                 type="submit"
               >
                 Subscribe
-                <img src={mailIcon} alt="" />
+                <img loading="lazy" src={mailIcon} alt="" />
               </button>
             </form>
           </div>

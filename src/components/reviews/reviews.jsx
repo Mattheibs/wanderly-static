@@ -37,6 +37,7 @@ function Reviews() {
             <div className="reviews-container-images mobile-hidden">
               {images.map((img, index) => (
                 <img
+                  loading="lazy"
                   key={index}
                   className={`reviews-container-image ${
                     index === selectedReview ? "active" : ""
@@ -57,7 +58,7 @@ function Reviews() {
                 </h4>
                 <div className="review-stars">
                   {[...Array(5)].map((_, i) => (
-                    <img key={i} src={reviewStar} alt="" />
+                    <img loading="lazy" key={i} src={reviewStar} alt="" />
                   ))}
                 </div>
               </div>
@@ -74,11 +75,16 @@ function Reviews() {
                       <h4 className="is-dark-text">{review.reviewName}</h4>
                       <div className="review-stars">
                         {[...Array(5)].map((_, i) => (
-                          <img key={i} src={reviewStar} alt="" />
+                          <img loading="lazy" key={i} src={reviewStar} alt="" />
                         ))}
                       </div>
                     </div>
-                    <img className="review-quotes" src={quotes} alt="" />
+                    <img
+                      loading="lazy"
+                      className="review-quotes"
+                      src={quotes}
+                      alt=""
+                    />
                   </div>
                 );
               })}

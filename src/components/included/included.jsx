@@ -1,5 +1,5 @@
 import "./included.css";
-import included from "../../assets/images/included.png";
+import included from "../../assets/images/included.webp";
 import hand from "../../assets/images/iconImages/hand-icon.svg";
 import car from "../../assets/images/iconImages/car-icon.svg";
 import fork from "../../assets/images/iconImages/fork-icon.svg";

@@ -16,6 +16,16 @@
   gap: 1rem;
   cursor: pointer;
 }
+.tour-bg {
+  background-color: #e7eced;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+}
 
 .tours-panel:hover .nav-white-arrow-tour-panel {
   content: url("../../assets/images/nav-arrow-pink.svg");
@@ -29,6 +39,7 @@
   left: 0;
   z-index: -1;
   border-radius: 2rem;
+  object-fit: cover;
 }
 .tours-panel::after {
   content: "";
@@ -60,5 +71,8 @@
   .tour-panel-bg {
     width: 100%;
     height: 100%;
+  }
+  .tour-bg {
+    height: 200%;
   }
 }

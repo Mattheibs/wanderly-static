@@ -361,7 +361,7 @@ a {
   right: 0;
   height: 100%;
   max-height: 34rem;
-  background-image: url("./assets/images/our-story-bg.png");
+  background-image: url("./assets/images/our-story-bg.webp");
   background-size: cover;
   z-index: -1;
 }
@@ -393,7 +393,7 @@ a {
   margin-bottom: 12.75rem;
 }
 .our-guides h1,
-.our-guides h4 {
+.our-guides h2 {
   text-align: center;
 }
 

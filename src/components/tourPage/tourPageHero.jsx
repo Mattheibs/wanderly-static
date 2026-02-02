@@ -65,9 +65,9 @@ function TourPageHero({ tour }) {
     setCalendarOpen(!calendarOpen);
   };
   return (
-    <div className="tour-page-hero-bg">
+    <div>
       <div className="padding-global">
-        <div className="faq-bg"></div>
+        <div className="tour-bg"></div>
         <div className="tour-page-hero container-large padding-section-small padding-bottom">
           <img className="tour-page-hero-main-img" src={tour.mainImg} alt="" />
           <div className="tour-page-hero-text">
@@ -80,7 +80,7 @@ function TourPageHero({ tour }) {
             <div className="tour-page-hero-pill">
               <div className="tour-page-hero-pill-item tour-page-hero-pill-item-left">
                 <p className="text-size-small is-dark-text">Total</p>
-                <h3 className="is-dark-heading">{tour.price}</h3>
+                <p className="is-dark-heading heading-style-h3">{tour.price}</p>
               </div>
               <div className="pill-line"></div>
               <div className="tour-page-hero-pill-item tour-page-date-selection">

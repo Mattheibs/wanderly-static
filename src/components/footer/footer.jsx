@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./footer.css";
-import logo from "../../assets/images/footer-logo.png";
+import logo from "../../assets/images/footer-logo.webp";
 import footerWander from "../../assets/images/footer-wander.svg";
 import twitter from "../../assets/images/iconImages/twitter.svg";
 import facebook from "../../assets/images/iconImages/facebook.svg";
@@ -12,7 +12,7 @@ function Footer() {
     <div className="footer-container">
       <div className="padding-global">
         <div className="container-large padding-section-small footer">
-          <img src={logo} alt="" />
+          <img loading="lazy" src={logo} alt="" />
           <div className="footer-links">
             <div className="footer-links-list">
               <p className="is-dark-heading">Company</p>
@@ -35,21 +35,21 @@ function Footer() {
           </div>
         </div>
       </div>
-      <img className="footer-wander" src={footerWander} alt="" />
+      <img loading="lazy" className="footer-wander" src={footerWander} alt="" />
       <div className="footer-cc">
         <p>© Wanderly Tours 2025. All rights reserved.</p>
         <div>
-          <a href="">
-            <img src={facebook} alt="" />
+          <a href="" aria-label="Go to facebook page">
+            <img loading="lazy" src={facebook} alt="" />
           </a>
-          <a href="">
-            <img src={twitter} alt="" />
+          <a href="" aria-label="Go to twitter page">
+            <img loading="lazy" src={twitter} alt="" />
           </a>
-          <a href="">
-            <img src={instagram} alt="" />
+          <a href="" aria-label="Go to instagram page">
+            <img loading="lazy" src={instagram} alt="" />
           </a>
-          <a href="">
-            <img src={pinterest} alt="" />
+          <a href="" aria-label="Go to pinterest page">
+            <img loading="lazy" src={pinterest} alt="" />
           </a>
         </div>
       </div>

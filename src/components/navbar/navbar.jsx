@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo.webp";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 import scottishNav from "../../assets/images/scottish-highlands-nav.png";
-import lakeNav from "../../assets/images/lake-distric-nav.png";
+import lakeNav from "../../assets/images/lake-distric-nav.webp";
 import yorkshireNav from "../../assets/images/yorkshire-dales-nav.png";
-import cornwallNav from "../../assets/images/cornwall-coast-nav.png";
+import cornwallNav from "../../assets/images/cornwall-coast-nav.webp";
 import navArrowWhite from "../../assets/images/iconImages/nav-arrow.svg";
 import navArrowDown from "../../assets/images/iconImages/nav-arrow-down.svg";
 import navArrowUp from "../../assets/images/iconImages/nav-arrow-up.svg";
@@ -50,20 +50,22 @@ function Navbar() {
   return (
     <div className="padding-global">
       <div className="navbar-container">
-        <Link to="/">
-          <img src={logo} />
+        <Link to="/" aria-label="Go to homepage">
+          <img src={logo} alt="Go to homepage" />
         </Link>
 
         {!mobileMenuShown ? (
           <img
             src={hamburger}
             className="navbar-hamburger"
+            alt="Open menu"
             onClick={openMobileMenu}
           />
         ) : (
           <img
             src={close}
             className="navbar-hamburger"
+            alt="Open menu"
             onClick={openMobileMenu}
           />
         )}
@@ -100,11 +102,12 @@ function Navbar() {
                       <div key={tour.tourName}>
                         <Link to={tour.link} className="tour-grid-item">
                           <div className="tour-grid-item-img">
-                            <img src={tour.img} alt="" />
+                            <img loading="lazy" src={tour.img} alt="" />
                             <img
                               className="nav-white-arrow"
                               src={navArrowWhite}
                               alt=""
+                              loading="lazy"
                             />
                           </div>
                           <div>

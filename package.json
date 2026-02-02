@@ -1,9 +1,11 @@
 {
   "name": "wanderly-static",
+  "homepage": "https://mattheibs.github.io/wanderly-static/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

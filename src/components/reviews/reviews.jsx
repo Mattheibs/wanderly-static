@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./reviews.css";
-import review1 from "../../assets/images/reviews1.png";
-import review3 from "../../assets/images/reviews2.png";
-import review2 from "../../assets/images/reviews3.png";
+import review1 from "../../assets/images/reviews1.webp";
+import review3 from "../../assets/images/reviews2.webp";
+import review2 from "../../assets/images/reviews3.webp";
 import reviewStar from "../../assets/images/iconImages/review-star.svg";
 import quotes from "../../assets/images/quotes.svg";
 

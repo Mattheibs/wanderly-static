@@ -14,6 +14,7 @@ function TourPageGuides({ tour }) {
                     id="tour-page-guides-grid-item-guide-img"
                     src={guide.guideImg}
                     alt=""
+                    loading="lazy"
                   />
                   <div className="tour-page-guides-grid-item-text">
                     <h3 className="is-dark-heading">{guide.guideName}</h3>

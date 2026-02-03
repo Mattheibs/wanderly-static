@@ -5,6 +5,7 @@
   position: relative;
   justify-content: center;
   border-radius: 2rem;
+  margin-top: 6rem !important;
 }
 
 .tours-panel {
@@ -65,6 +66,7 @@
   .tours-panel {
     width: 100%;
   }
+
   .tours-grid {
     grid-template-columns: repeat(auto-fill, 100%);
   }
@@ -74,5 +76,14 @@
   }
   .tour-bg {
     height: 200%;
+  }
+  .tours-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20.25rem);
+    gap: 1rem;
+    position: relative;
+    justify-content: center;
+    border-radius: 2rem;
+    margin-top: 2.625rem !important;
   }
 }

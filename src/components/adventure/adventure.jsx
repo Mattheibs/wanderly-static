@@ -22,7 +22,7 @@ function Adventure() {
               find them.
             </p>
           </div>
-          <img src={adventure} alt="" />
+          <img loading="lazy" src={adventure} alt="" />
         </div>
       </div>
     </div>

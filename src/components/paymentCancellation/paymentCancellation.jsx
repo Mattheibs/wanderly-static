@@ -9,7 +9,12 @@ function PaymentCancellation() {
   return (
     <div className="padding-global">
       <div className="payment-cancellation container-large padding-section-small">
-        <img className="payment-cancellation-main-img" src={payment} alt="" />
+        <img
+          loading="lazy"
+          className="payment-cancellation-main-img"
+          src={payment}
+          alt=""
+        />
         <div>
           <h2 className="is-dark-heading padding-bottom padding-small">
             Payment & Cancellations

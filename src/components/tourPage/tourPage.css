@@ -18,7 +18,8 @@
   max-width: 40rem;
   object-fit: cover;
 }
-.tour-page-hero-text a {
+.tour-page-hero-text a,
+.tour-page-hero-text button {
   display: inline-block;
   display: flex;
   justify-content: flex-start;
@@ -285,7 +286,7 @@
     flex-direction: column;
   }
   .tour-page-included img {
-    max-width: 60%;
+    max-width: 100%;
   }
   .tour-page-itinerary {
     flex-direction: column;

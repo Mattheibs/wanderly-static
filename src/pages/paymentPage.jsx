@@ -42,7 +42,7 @@ function PaymentPage() {
           <p className="is-dark-text padding-small padding-bottom">
             {startDate && endDate
               ? `${startDate.toLocaleDateString()} → ${endDate.toLocaleDateString()}`
-              : "Dates not selected"}
+              : "Please select dates on the previous page"}
           </p>
           <p className="is-dark-heading is-bold-text">Guests</p>
           <p className="is-dark-text padding-small padding-bottom">
@@ -100,9 +100,17 @@ function PaymentPage() {
           <h3 className="is-dark-heading padding-small padding-bottom">
             Cancellation policy
           </h3>
-          <p className="is-dark-text padding-small padding-bottom">
-            Free cancellation before [Date] for a partial refund.
-          </p>
+          {startDate ? (
+            <p className="is-dark-text padding-small padding-bottom">
+              Free cancellation before {startDate.toLocaleDateString()} for a
+              partial refund.
+            </p>
+          ) : (
+            <p className="is-dark-text padding-small padding-bottom">
+              Free cancellation before start date for a partial refund.
+            </p>
+          )}
+
           <button className="button is-accent-color">Confirm and Pay</button>
         </div>
         <div className="booking-payment-tour">

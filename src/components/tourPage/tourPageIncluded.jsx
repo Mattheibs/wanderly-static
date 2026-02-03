@@ -2,7 +2,7 @@ function TourPageIncluded({ tour }) {
   return (
     <div className="padding-global">
       <div className="tour-page-included container-large padding-section-small">
-        <img src={tour.includedImg} alt="" />
+        <img loading="lazy" src={tour.includedImg} alt="" />
         <div className="tour-page-included-text">
           <h2 className="is-dark-heading padding-small padding-bottom">
             What’s Included?
@@ -13,7 +13,7 @@ function TourPageIncluded({ tour }) {
                 key={index}
                 className="tour-page-included-text-included-container"
               >
-                <img src={item.img} alt="" />
+                <img loading="lazy" src={item.img} alt="" />
                 <p className="is-dark-text">{item.text}</p>
               </div>
             );

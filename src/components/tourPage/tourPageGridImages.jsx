@@ -5,7 +5,7 @@ function TourPageGridImages({ tour }) {
         {tour.gridImages.map((image, index) => {
           return (
             <div key={index}>
-              <img src={image.img} alt="" />
+              <img loading="lazy" src={image.img} alt="" />
               <h3>{image.text}</h3>
             </div>
           );

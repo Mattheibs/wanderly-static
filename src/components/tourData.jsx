@@ -26,7 +26,7 @@ import yorkshireDalesMain from "../assets/images/tourImages/yorkshire-dales-main
 import yorkshireDalesIncluded from "../assets/images/tourImages/yorkshire-dales-included.webp";
 import yorkshireDalesGrid1 from "../assets/images/tourImages/yorkshire-dales-grid-1.webp";
 import yorkshireDalesGrid2 from "../assets/images/tourImages/yorkshire-dales-grid-2.webp";
-import yorkshireDalesGrid3 from "../assets/images/tourImages/yorkshire-dales-grid-3.png";
+import yorkshireDalesGrid3 from "../assets/images/tourImages/yorkshire-dales-grid-3.webp";
 import yorkshireDalesGrid4 from "../assets/images/tourImages/yorkshire-dales-grid-4.webp";
 import yorkshireDalesGrid5 from "../assets/images/tourImages/yorkshire-dales-grid-5.webp";
 

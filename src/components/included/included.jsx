@@ -49,7 +49,12 @@ function Included() {
               meeting point.
             </p>
           </div>
-          <img className="included-main-img" src={included} alt="" />
+          <img
+            loading="lazy"
+            className="included-main-img"
+            src={included}
+            alt=""
+          />
         </div>
       </div>
     </div>

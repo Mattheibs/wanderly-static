@@ -17,6 +17,10 @@ function TourPageHero({ tour }) {
   const navigate = useNavigate();
 
   const handleProceedToBooking = () => {
+    if (!startDate || !endDate) {
+      setCalendarOpen(true);
+      return;
+    }
     // Save data in cookies
     Cookies.set("tourGuestAmount", guestAmount, { expires: 7 }); // expires in 7 days
     Cookies.set("tourStartDate", startDate ? startDate.toISOString() : "", {

@@ -344,17 +344,18 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  height: 100dvh;
+  height: 100%;
   background-size: cover;
   z-index: -1;
   width: 100%;
   object-fit: cover;
+  max-height: 65rem;
 }
 
 .home {
   text-align: center;
   margin-top: 18.375rem;
-  height: calc(100dvh - 25rem);
+  padding-bottom: 25rem;
 }
 
 .our-story-bg {
@@ -631,10 +632,6 @@ a {
     text-align: center;
     margin-top: 7.5rem;
     padding-bottom: 6.25rem;
-  }
-  .home {
-    text-align: center;
-    height: 20dvh;
   }
   .home h4 {
     max-width: 21.5rem;

@@ -8,14 +8,14 @@ import homeBG from "../assets/images/hero-bg.webp";
 function Home() {
   return (
     <div>
-      <img
-        loading="eager"
-        fetchPriority="high"
-        src={homeBG}
-        className="home-bg"
-      ></img>
       <div className="padding-global">
         <div className="home max-width-medium ">
+          <img
+            loading="eager"
+            fetchPriority="high"
+            src={homeBG}
+            className="home-bg"
+          ></img>
           <h1>Uncover the Untamed Beauty of the UK</h1>
           <h2 className="padding-small padding-top heading-style-h4">
             Small-group guided adventures through Britain’s most breathtaking

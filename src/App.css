@@ -354,7 +354,7 @@ a {
 .home {
   text-align: center;
   margin-top: 18.375rem;
-  padding-bottom: 19.25rem;
+  height: calc(100dvh - 25rem);
 }
 
 .our-story-bg {
@@ -631,6 +631,10 @@ a {
     text-align: center;
     margin-top: 7.5rem;
     padding-bottom: 6.25rem;
+  }
+  .home {
+    text-align: center;
+    height: 20dvh;
   }
   .home h4 {
     max-width: 21.5rem;

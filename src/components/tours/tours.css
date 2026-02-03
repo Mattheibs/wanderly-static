@@ -5,7 +5,7 @@
   position: relative;
   justify-content: center;
   border-radius: 2rem;
-  margin-top: 6rem !important;
+  z-index: 1;
 }
 
 .tours-panel {
@@ -90,6 +90,5 @@
     position: relative;
     justify-content: center;
     border-radius: 2rem;
-    margin-top: 2.625rem !important;
   }
 }

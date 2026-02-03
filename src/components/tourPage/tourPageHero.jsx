@@ -73,7 +73,13 @@ function TourPageHero({ tour }) {
       <div className="padding-global">
         <div className="tour-bg"></div>
         <div className="tour-page-hero container-large padding-section-small padding-bottom">
-          <img className="tour-page-hero-main-img" src={tour.mainImg} alt="" />
+          <img
+            className="tour-page-hero-main-img"
+            src={tour.mainImg}
+            alt=""
+            loading="eager"
+            fetchPriority="high"
+          />
           <div className="tour-page-hero-text">
             <h1 className="padding-small padding-bottom is-dark-heading">
               {tour.tourName}

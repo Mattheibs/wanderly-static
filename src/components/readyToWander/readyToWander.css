@@ -9,6 +9,7 @@
   border: 1px solid #9daeb5;
   border-radius: 6.25rem;
   outline: none;
+  width: 100%;
 }
 .ready-to-wander form button {
   display: flex;

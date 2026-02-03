@@ -89,7 +89,7 @@ function ContactUs() {
               className="margin-small margin-top button is-accent-color"
               type="submit"
             >
-              Subscribe
+              Send
               <img src={mailIcon} alt="" />
             </button>
           </form>

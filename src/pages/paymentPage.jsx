@@ -66,7 +66,7 @@ function PaymentPage() {
           <label className="payment-btn text-size-medium booking-payment-radio">
             <input type="radio" name="paymentOptions" value="partial" />
             <span className="is-dark-heading padding-small padding-bottom is-bold-text">
-              Pay part now, part later
+              Pay half now, half later
             </span>
           </label>
           <div className="payment-line"></div>
